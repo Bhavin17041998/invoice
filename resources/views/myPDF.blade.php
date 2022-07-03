@@ -104,17 +104,17 @@
                     <div class="company-details">
                         <h3 style="color:#cc0000;float: right; display:inline">INVOICE</h3>
                     </div>
+                    <div class="company-details" class="col-6" style="">
+                        <p class="">51/566 Chandrabhaga Housing Board </p>
+                        <p class="">Nr. Nava Vadaj,</p>
+                        <p class="">Ahmedabad, Gujarat</p>
+                        <p class="">(M) 9723630291</p>
+                    </div>
                 </div>
         </div>
         <br />
         <div class="row">
             <div class="col-6" style="">
-                <p class="">51/566 Chandrabhaga Housing Board </p>
-                <p class="">Nr. Nava Vadaj,</p>
-                <p class="">Ahmedabad, Gujarat</p>
-                <p class="">(M) 9723630291</p>
-            </div>
-            <div class="col-6" style="float: right;display:inline">
                 <p class="sub-heading">DATE: {{ $bill->current_date }}</p>
                 <p class="sub-heading">INVOICE #  {{ $bill->id }}</p>
                 <p class="sub-heading">Vehicle No. {{ $bill->vehicle->number }} </p>
